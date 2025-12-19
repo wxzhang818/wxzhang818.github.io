@@ -8,7 +8,7 @@ canonifyURLs = true
   [[menus.main]]
     identifier = "about"
     name = "About"
-    url = "/about.html"
+    url = "/about"
     weight = 20
   [[menus.main]]
     identifier = "blog"
