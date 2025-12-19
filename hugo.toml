@@ -16,6 +16,11 @@ canonifyURLs = true
     url = "/blog"
     weight = 30
   [[menus.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects"
+    weight = 35
+  [[menus.main]]
     identifier = "tags"
     name = "Tags"
     url = "/tags"
