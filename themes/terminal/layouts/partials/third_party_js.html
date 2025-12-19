@@ -2,7 +2,9 @@
 {{- $partials := slice -}}
 {{- $files := readDir "layouts/partials/third_party_js" -}}
 {{- range $files -}}
-    {{- $partials = $partials | append (.Name | replaceRE "\\.html$" "") -}}
+    {{- if strings.HasSuffix .Name ".html" -}}
+        {{- $partials = $partials | append (.Name | replaceRE "\\.html$" "") -}}
+    {{- end -}}
 {{- end -}}
 
 {{/* Use the list of partials in a range */}}
