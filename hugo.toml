@@ -1,4 +1,4 @@
-baseURL = 'https://wxzhang818.github.io'
+baseURL = 'https://wxzhang818.github.io/'
 languageCode = 'en-us'
 title = 'wenwen'
 theme = "terminal"
