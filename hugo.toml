@@ -22,7 +22,7 @@ canonifyURLs = true
     weight = 40
 
 [params]
-  [params.social]
-    [[params.social]]
-      name = "github"
-      url = "https://github.com/wxzhang818"
+  disqus = "" # Optional: Add your Disqus shortname
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/wxzhang818"
